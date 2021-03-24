@@ -18,3 +18,6 @@ In order to use the MTA API, you need to head on over to MTA Developer, create a
 Once you have your own login, a new access key is generated that you can use for 30 days. You will see in the code, there is a place where you will need to input your own access key. 
 
 ## Step 4: View your data in the console 
+In order to undestand how the MTA data is provided, you will need to play around a bit in the console. Shockingly, it is not well organized and the subway names correcpond with station codes. For example, I live off the Delancy/Essex st stop with a station code '625'. 
+
+## Step 5: 
