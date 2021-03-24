@@ -17,9 +17,10 @@ In order to use the MTA API, you need to head on over to MTA Developer, create a
 Once you have your own login, a new access key is generated that you can use for 30 days. You will see in the code, there is a place where you will need to input your own access key. 
 
 ## Step 4: View Your Data in the Console 
-In order to undestand how the MTA data is provided, you will need to play around a bit in the console. Shockingly, it is not well organized and the subway names correcpond with station codes. For example, I live off the Delancy/Essex st stop with a station code '625'. 
+In order to undestand how the MTA data is provided, you will need to play around a bit in the console. Shockingly, it is not well organized and the subway names correcpond with station codes. For example, I live off the Delancy/Essex st stop with a station code '625'. I hard coded in my subway station so I could more easily filter through the data. If you choose not to do that, it will be very overwhelming so I recommend looking up a subway station code and filtering from there.
 
 The sketch is hosted locally through localhost:8000. 
+
 In my code, I have the data being stored to mtaData. Begin by typing that into the console and seeing the objects inside of the data set. From there, you can view 
 `mtaData.complexId, mtaData.name, mtaData.lines etc.`
 
