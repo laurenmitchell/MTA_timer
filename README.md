@@ -17,7 +17,11 @@ Jiwon's starter code is found here: https://github.com/js6450/mta-to-p5.js
 In order to use the MTA API, you need to head on over to MTA Developer, create a login, and generate your own key. https://api.mta.info/#/landing 
 Once you have your own login, a new access key is generated that you can use for 30 days. You will see in the code, there is a place where you will need to input your own access key. 
 
-## Step 4: View your data in the console 
+## Step 4: View Your Data in the Console 
 In order to undestand how the MTA data is provided, you will need to play around a bit in the console. Shockingly, it is not well organized and the subway names correcpond with station codes. For example, I live off the Delancy/Essex st stop with a station code '625'. 
 
-## Step 5: 
+The sketch is hosted locally through localhost:8000. 
+In my code, I have the data being stored to mtaData. Begin by typing that into the console and seeing the objects inside of the data set. From there, you can view mtaData.complexId, mtaData.name, mtaData.lines etc.
+
+
+## Step 5: Understanding and Altering My Code 
