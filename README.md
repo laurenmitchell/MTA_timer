@@ -21,7 +21,9 @@ Once you have your own login, a new access key is generated that you can use for
 In order to undestand how the MTA data is provided, you will need to play around a bit in the console. Shockingly, it is not well organized and the subway names correcpond with station codes. For example, I live off the Delancy/Essex st stop with a station code '625'. 
 
 The sketch is hosted locally through localhost:8000. 
-In my code, I have the data being stored to mtaData. Begin by typing that into the console and seeing the objects inside of the data set. From there, you can view mtaData.complexId, mtaData.name, mtaData.lines etc.
-
+In my code, I have the data being stored to mtaData. Begin by typing that into the console and seeing the objects inside of the data set. From there, you can view 
+`code`
+mtaData.complexId, mtaData.name, mtaData.lines etc.
+`code`
 
 ## Step 5: Understanding and Altering My Code 
