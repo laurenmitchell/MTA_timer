@@ -22,8 +22,6 @@ In order to undestand how the MTA data is provided, you will need to play around
 
 The sketch is hosted locally through localhost:8000. 
 In my code, I have the data being stored to mtaData. Begin by typing that into the console and seeing the objects inside of the data set. From there, you can view 
-`code`
-mtaData.complexId, mtaData.name, mtaData.lines etc.
-`code`
+`mtaData.complexId, mtaData.name, mtaData.lines etc.`
 
 ## Step 5: Understanding and Altering My Code 
