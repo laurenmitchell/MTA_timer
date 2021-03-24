@@ -1,4 +1,4 @@
-# MTA_timer
+# Custom MTA Subway Clock
 
 
 We all always complain about the inefficiency of the NYC MTA. The F train, commonly known as the "forever" train is perpetually 8 minute delayed and Herald Square seems to have a power outage every other week. It should be no surprise that the MTA's API is a pain and a half to use. I decided to create my own subway clock for my apartment using P5.js. I wanted an easy way to view when the uptown F and M train are arriving without having to click sevearl buttons through an app on my phone. This project required a great deal of data cleaning and setup that was not found in any documentation provided by MTA. My hope is for others to build off this starter code and make cool applicatoins to make NYC for accessible. 
